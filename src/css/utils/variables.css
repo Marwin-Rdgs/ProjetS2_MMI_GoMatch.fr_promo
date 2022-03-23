@@ -1,0 +1,22 @@
+:root{
+/* Color styles */
+--blue: rgba(23, 91, 136, 1);
+--green: rgba(16, 125, 13, 1);
+--turquoise: rgba(8, 142, 142, 1);
+--black: rgba(0, 0, 0, 1);
+--white: rgba(255, 255, 255, 1);
+--grey: rgba(244, 244, 244, 1);
+
+/* Text-size styles */
+--h1: 65px;
+--h3: 37px;
+--h2: 110px;
+--font-text: 22px;
+--font-newsletter: 35px;
+--font-footer: 22px;
+--font-animation: 29px;
+
+/* Typo */
+--font-impact : 'Impact', sans-serif;
+--font-open : 'Open Sans', sans-serif; 
+}

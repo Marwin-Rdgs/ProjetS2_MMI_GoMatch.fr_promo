@@ -10,7 +10,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Football", "Bascketball", "Pétanque", "Tennis"];
+const textArray = ["Football", "Basketball", "Pétanque", "Tennis"];
 const typingDelay = 100;
 const erasingDelay = 100;
 const newTextDelay = 50; // Delay between current and next text
