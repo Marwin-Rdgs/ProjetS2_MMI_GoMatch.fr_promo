@@ -1,11 +1,11 @@
-
-.newsletter {
-    font-size: var(--font-newsletter);
-    color: var(--white);
-}
-
 .btn__newsletter {
     background-color: var(--black);
     outline: none;
     border-radius: 70px;
+}
+
+
+.btn__newsletter p {
+    font-size: var(--font-newsletter);
+    color: var(--white);
 }

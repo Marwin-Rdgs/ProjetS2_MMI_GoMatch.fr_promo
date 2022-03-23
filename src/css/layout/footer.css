@@ -1,8 +1,42 @@
-.title
-{
-    font-family: var(--font-impact);
+.footer {
+    margin-top: 87px;
+    background-color: var(--black);
+    color: var(--white);
+    overflow: hidden;
 }
 
-.txt {
-    font-family: var(--font-open);
+.footer_social {
+    margin-left: 1230px;
+}
+
+.footer_logo_mmi {
+    width: 90px;
+    height: 99px;
+}
+
+.footer_univ {
+    margin-left: 15px;
+}
+
+.footer_adresse_univ {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.footer_txt {
+    font-size: var(--font-footer);
+}
+
+.footer_txt_ml {
+    text-align: center;
+}
+
+.icone_reseaux {
+    margin-right: 25px;
+}
+
+.icone_reseaux:hover {
+    margin-top: 15px;
+    transform: translateY(-30px) scale(110%);
+    transition-duration: 0.5s;
 }

@@ -1,0 +1,21 @@
+.title
+{
+    font-family: var(--font-impact);
+}
+
+.txt {
+    font-family: var(--font-open);
+}
+
+.section_newsletter {
+    text-align: center;
+}
+
+.newsletter {
+    font-size: var(--font-newsletter);
+}
+
+h3 {
+    font-size: var(--h3);
+    font-family: var(--font-open);
+}

@@ -1,0 +1,95 @@
+/* ====================== SPORT ===================*/
+
+.section_sport {
+    height: 486px;
+}
+
+.section_sport_minia {
+    width: 612px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.section_sport_content {
+    margin-left: 15px;
+    width: 850px;
+    height: 486px;
+
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.section_sport_text {
+    padding-top: 108px;
+    padding-left: 121px;
+}
+
+.section_sport_p {
+    font-size: var(--font-text);
+    font-family: var(--font-open);
+}
+
+/* ====================== PARTAGE  ===================*/
+
+.section_partage {
+    height: 486px;
+    margin-top: 30px;
+}
+
+.section_partage_minia {
+    width: 533px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section_partage_content {
+    margin-right: 15px;
+    width: 930px;
+    height: 486px;
+
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.section_partage_text {
+    padding-top: 108px;
+    padding-left: 121px;
+}
+
+.section_partage_p {
+font-size: var(--font-text);
+font-family: var(--font-open);
+}
+
+/* ====================== Temps  ===================*/
+
+.section_temps {
+    height: 486px;
+    margin-top: 30px;
+}
+
+.section_temps_minia {
+    width: 850px;
+    height: 486px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.section_temps_content {
+    margin-left: 15px;
+    width: 615px;
+    height: 486px;
+
+    color: var(--white);
+    background-color: var(--turquoise);
+}
+
+.section_temps_text {
+    padding-top: 108px;
+    padding-left: 10px;
+}
+
+.section_temps_p {
+    font-size: var(--font-text);
+    font-family: var(--font-open);
+}
