@@ -32,11 +32,11 @@
 }
 
 .icone_reseaux {
+    margin-top: 20px;
     margin-right: 25px;
 }
 
 .icone_reseaux:hover {
-    margin-top: 15px;
     transform: translateY(-30px) scale(110%);
     transition-duration: 0.5s;
 }

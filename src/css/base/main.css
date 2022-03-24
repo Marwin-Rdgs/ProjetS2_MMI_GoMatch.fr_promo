@@ -1,10 +1,26 @@
 .title
 {
     font-family: var(--font-impact);
+    text-align: center;
+    font-size: 100px;
+    color: var(--white);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.h1 {
+    font-size: var(--h1);
+    text-align: center;
+    color: var(--black);
 }
 
 .txt {
     font-family: var(--font-open);
+    color: var(--white);
+    font-size: var(--h2);
+    text-align: center;
 }
 
 .section_newsletter {
@@ -18,4 +34,16 @@
 h3 {
     font-size: var(--h3);
     font-family: var(--font-open);
+}
+
+.screen {
+    background-image:url("../../../public/img/Minia.jpg");
+    background-size: cover;
+    margin-bottom: 35px;
+    padding-bottom: 60px
+}
+
+.arrow_down {
+    display: block;
+    margin-left: 700px;
 }
