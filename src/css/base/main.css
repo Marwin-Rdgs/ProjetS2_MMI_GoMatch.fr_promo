@@ -14,6 +14,7 @@ a:link {
     font-size: var(--h1);
     text-align: center;
     color: var(--black);
+    margin-right: 120px;
 }
 
 .txt {
@@ -46,4 +47,8 @@ h3 {
 .arrow_down {
     display: block;
     margin-left: 700px;
+}
+
+.logo_gomatch {
+    margin-left: 15px;
 }
