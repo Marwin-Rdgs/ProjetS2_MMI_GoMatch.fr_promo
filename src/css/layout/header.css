@@ -1,0 +1,47 @@
+.first_header {
+    background-color: var(--white);
+    height: 115px; 
+    overflow: hidden;   
+    margin-bottom: 0px;
+}
+
+.title
+{
+    font-family: var(--font-impact);
+    text-align: center;
+    font-size: var(--h1_desktop);
+}
+
+.screen {
+    margin-top: 0px;
+    background-image:url("../../../public/img/Minia.jpg");
+    background-size: cover;
+    margin-bottom: 35px;
+}
+
+.arrow_down {
+    display: block;
+    margin-left: 700px;
+}
+
+.logo_gomatch {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.title_minia
+{
+    margin-top: 0px;
+    font-family: var(--font-impact);
+    text-align: center;
+    font-size: 100px;
+    color: var(--white);
+}
+
+.title_anim {
+    font-size: var(--font-animation_desktop);
+    font-family: var(--font-impact);
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 260px;
+}

@@ -2,10 +2,12 @@
     background-color: var(--black);
     outline: none;
     border-radius: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
 .btn__newsletter p {
-    font-size: var(--font-newsletter);
+    font-size: var(--font-newsletter_desktop);
     color: var(--white);
 }

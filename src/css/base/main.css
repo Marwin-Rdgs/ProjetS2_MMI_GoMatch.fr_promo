@@ -1,9 +1,6 @@
-.title
-{
-    font-family: var(--font-impact);
-    text-align: center;
-    font-size: 100px;
-    color: var(--white);
+.main {
+    width: 100%;
+    background-color: var(--grey);
 }
 
 a:link {
@@ -11,17 +8,10 @@ a:link {
 }
 
 .h1 {
-    font-size: var(--h1);
+    font-size: var(--h1_desktop);
     text-align: center;
     color: var(--black);
     margin-right: 120px;
-}
-
-.txt {
-    font-family: var(--font-open);
-    color: var(--white);
-    font-size: var(--h2);
-    text-align: center;
 }
 
 .section_newsletter {
@@ -29,26 +19,11 @@ a:link {
 }
 
 .newsletter {
-    font-size: var(--font-newsletter);
-}
-
-h3 {
-    font-size: var(--h3);
+    font-size: var(--font-newsletter_desktop);
     font-family: var(--font-open);
 }
 
-.screen {
-    background-image:url("../../../public/img/Minia.jpg");
-    background-size: cover;
-    margin-bottom: 35px;
-    padding-bottom: 60px
-}
-
-.arrow_down {
-    display: block;
-    margin-left: 700px;
-}
-
-.logo_gomatch {
-    margin-left: 15px;
+h3 {
+    font-size: var(--h3_desktop);
+    font-family: var(--font-open);
 }

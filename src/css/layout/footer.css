@@ -1,42 +1,25 @@
 .footer {
     margin-top: 87px;
-    background-color: var(--black);
-    color: var(--white);
     overflow: hidden;
 }
 
-.footer_social {
-    margin-left: 1230px;
-}
-
-.footer_logo_mmi {
-    width: 90px;
-    height: 99px;
-}
-
-.footer_univ {
-    margin-left: 15px;
-}
-
-.footer_adresse_univ {
-    margin-left: 100px;
-    margin-top: 25px;
-}
-
-.footer_txt {
-    font-size: var(--font-footer);
-}
-
 .footer_txt_ml {
+    font-size: var(--font-footer_desktop);
     text-align: center;
+    z-index: 3;
+    margin-top: 130px;
 }
 
-.icone_reseaux {
-    margin-top: 20px;
-    margin-right: 25px;
+.footer_foot {
+    position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+
 }
 
-.icone_reseaux:hover {
-    transform: translateY(-30px) scale(110%);
-    transition-duration: 0.5s;
+.footer_tennis {
+    position: absolute;
+    z-index: 1;
+    left: 1150px;
+    height: 550px;
 }
