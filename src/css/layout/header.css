@@ -1,3 +1,5 @@
+@media (min-width: 1000px) {
+
 .first_header {
     background-color: var(--white);
     height: 115px; 
@@ -44,4 +46,60 @@
     text-align: center;
     color: var(--white);
     margin-bottom: 260px;
+}
+}
+
+@media (max-width: 1000px) {
+
+    .first_header {
+        background-color: var(--white);
+        height: 84px; 
+        overflow: hidden;   
+        margin-bottom: 0px;
+    }
+
+    .title
+    {
+        font-family: var(--font-impact);
+        text-align: center;
+        font-size: var(--h1_phone);
+        margin-left: 115px;
+    }
+
+    .screen {
+        margin-top: 0px;
+        background-image:url("../../../public/img/minia-phone.png");
+        background-size: cover;
+        margin-bottom: 35px;
+    }
+
+    .arrow_down {
+        display: block;
+        width: 15%;
+        margin-left: 160px;
+    }
+
+    .logo_gomatch {
+        margin-top: 20px;
+        margin-left: 18px;
+        width: 15%;
+    }
+
+    .title_minia
+{
+    margin-top: 0px;
+    font-family: var(--font-impact);
+    text-align: center;
+    font-size: var(--h2_phone);
+    color: var(--white);
+}
+
+.title_anim {
+    font-size: var(--font-animation_phone);
+    font-family: var(--font-impact);
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 260px;
+}
+
 }
