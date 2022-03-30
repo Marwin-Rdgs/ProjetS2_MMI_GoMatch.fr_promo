@@ -5,6 +5,11 @@
     overflow: hidden;
 }
 
+.footer__ml {
+    margin-top: 350px;
+    overflow: hidden;
+}
+
 .footer_txt_ml {
     font-size: var(--font-footer_desktop);
     text-align: center;
@@ -38,6 +43,11 @@
     
     .footer {
         margin-top: 87px;
+        overflow: hidden;
+    }
+
+    .footer__ml {
+        margin-top: 200px;
         overflow: hidden;
     }
 

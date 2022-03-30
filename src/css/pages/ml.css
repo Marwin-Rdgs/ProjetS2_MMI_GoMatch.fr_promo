@@ -1,0 +1,37 @@
+.ml__title {
+    margin-left: 45px;
+    z-index: 2;
+}
+
+.blue_line {
+    position: absolute;
+    top: 180px;
+    left: 90px;
+
+    z-index: -1;
+}
+
+.line {
+    position: absolute;
+    top: 230px;
+    left: 60px;
+
+    z-index: -1;
+}
+
+.ml__content {
+    margin-top: 80px;
+    margin-left: 118px;
+    margin-right: 118px;
+}
+
+.ml__text__title {
+    font-size: 24px;
+    font-family: var(--font-open);
+    margin-bottom: 15px;
+}
+
+.ml__text {
+    font-size: var(--font-text_desktop);
+    font-family: var(--font-open);
+}
