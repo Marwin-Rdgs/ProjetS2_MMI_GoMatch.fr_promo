@@ -13,6 +13,12 @@
     color: black;
 }
 
+
+.footer_txt_ml a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 .footer_foot {
     position: absolute;
     margin-top: 100px;
@@ -43,6 +49,11 @@
         margin-top: 200px;
 
         color: black;
+    }
+
+    .footer_txt_ml a {
+        text-decoration: none;
+        color: var(--black);
     }
 
     .footer_foot {
