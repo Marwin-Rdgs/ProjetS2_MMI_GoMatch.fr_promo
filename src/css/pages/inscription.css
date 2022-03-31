@@ -40,3 +40,7 @@ input {
 
     z-index: -1;
 }
+
+form {
+    margin-left: -25px;
+}
