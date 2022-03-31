@@ -1,44 +1,4 @@
-@media (min-width: 1000px) {
-
-.footer {
-    margin-top: 87px;
-    overflow: hidden;
-}
-
-.footer__ml {
-    margin-top: 350px;
-    overflow: hidden;
-}
-
-.footer_txt_ml {
-    font-size: var(--font-footer_desktop);
-    text-align: center;
-    z-index: 3;
-    margin-top: 130px;
-    color: black;
-}
-
-
-.footer_txt_ml a {
-    text-decoration: none;
-    color: var(--black);
-}
-
-.footer_foot {
-    position: absolute;
-    margin-top: 100px;
-    z-index: 1;
-
-}
-
-.footer_tennis {
-    position: absolute;
-    z-index: 1;
-    left: 1150px;
-    height: 550px;
-}
-}
-
+/* =============================== FORMAT TELEPHONE =============================== */
 @media (max-width: 1000px) {
     
     .footer {
@@ -86,3 +46,129 @@
 
 
 }
+
+/* =============================== FORMAT PC 16pouces =============================== */
+@media (min-width: 1000px) and (max-width: 1900px) {
+
+.footer {
+    margin-top: 87px;
+    overflow: hidden;
+}
+
+.footer__ml {
+    margin-top: 350px;
+    overflow: hidden;
+}
+
+.footer_txt_ml {
+    font-size: var(--font-footer_desktop);
+    text-align: center;
+    z-index: 3;
+    margin-top: 130px;
+    color: black;
+}
+
+
+.footer_txt_ml a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.footer_foot {
+    position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+
+}
+
+.footer_tennis {
+    position: absolute;
+    z-index: 1;
+    left: 1150px;
+    height: 550px;
+}
+}
+
+/* =============================== FORMAT PC 13pouces =============================== */
+@media (min-width: 800px) and (max-width: 1000px) {
+
+    .footer {
+        margin-top: 87px;
+        overflow: hidden;
+    }
+    
+    .footer__ml {
+        margin-top: 350px;
+        overflow: hidden;
+    }
+    
+    .footer_txt_ml {
+        font-size: var(--font-footer_desktop);
+        text-align: center;
+        z-index: 3;
+        margin-top: 130px;
+        color: black;
+    }
+    
+    
+    .footer_txt_ml a {
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    .footer_foot {
+        position: absolute;
+        margin-top: 100px;
+        z-index: 1;
+    
+    }
+    
+    .footer_tennis {
+        position: absolute;
+        z-index: 1;
+        left: 1150px;
+        height: 550px;
+    }
+    }
+
+/* =============================== FORMAT PC 24pouces =============================== */
+@media (min-width: 1900px) {
+
+    .footer {
+        margin-top: 87px;
+        overflow: hidden;
+    }
+    
+    .footer__ml {
+        margin-top: 350px;
+        overflow: hidden;
+    }
+    
+    .footer_txt_ml {
+        font-size: var(--font-footer_desktop);
+        text-align: center;
+        z-index: 3;
+        margin-top: 130px;
+        color: black;
+    }
+    
+    
+    .footer_txt_ml a {
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    .footer_foot {
+        position: absolute;
+        margin-top: 100px;
+        z-index: 1;
+    
+    }
+    
+    .footer_tennis {
+        position: absolute;
+        z-index: 1;
+        left: 1500px;
+        height: 550px;
+    }
+    }

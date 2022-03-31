@@ -1,3 +1,57 @@
+/* =============================== FORMAT TELEPHONE =============================== */
+@media (max-width: 800px) {
+    .inscription__title {
+        font-size: var(--font-text_desktop);
+        font-family: var(--font-open);
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .forms_inscrire {
+        background-size: cover;
+        text-align: center;
+        margin-top: 200px;
+    
+        z-index: 2;
+    }
+    
+    input {
+        border-radius: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        background-color: var(--grey);
+    }
+    
+    .btn__inscrire {
+        font-size: 20px;
+        font-family: var(--font-open);
+        color: white;
+    
+        background-color: var(--black);
+        outline: none;
+        border-radius: 70px;
+        padding: 10px;
+    }
+    
+    .fond__enveloppe {
+        position: absolute;
+        transform: scale(75%);
+        top: 260px;
+        left: 450px;
+    
+    
+        z-index: -1;
+    }
+    
+    form {
+        margin-left: -25px;
+    }
+    }
+
+/* =============================== FORMAT PC 16pouces =============================== */
+@media (min-width: 1000px) and (max-width: 1900px) {
 .inscription__title {
     font-size: var(--font-text_desktop);
     font-family: var(--font-open);
@@ -16,7 +70,9 @@
 
 input {
     border-radius: 5px;
-    padding-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
     background-color: var(--grey);
 }
 
@@ -44,3 +100,108 @@ input {
 form {
     margin-left: -25px;
 }
+}
+
+/* =============================== FORMAT PC 13 pouces =============================== */
+@media (min-width: 800px) and (max-width: 1000px) {
+    .inscription__title {
+        font-size: var(--font-text_desktop);
+        font-family: var(--font-open);
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .forms_inscrire {
+        background-size: cover;
+        text-align: center;
+        margin-top: 200px;
+    
+        z-index: 2;
+    }
+    
+    input {
+        border-radius: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        background-color: var(--grey);
+    }
+    
+    .btn__inscrire {
+        font-size: 20px;
+        font-family: var(--font-open);
+        color: white;
+    
+        background-color: var(--black);
+        outline: none;
+        border-radius: 70px;
+        padding: 10px;
+    }
+    
+    .fond__enveloppe {
+        position: absolute;
+        transform: scale(75%);
+        top: 260px;
+        left: 450px;
+    
+    
+        z-index: -1;
+    }
+    
+    form {
+        margin-left: -25px;
+    }
+}
+
+/* =============================== FORMAT PC 24pouces =============================== */
+@media (min-width: 1900px) {
+    .inscription__title {
+        font-size: var(--font-text_desktop);
+        font-family: var(--font-open);
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .forms_inscrire {
+        background-size: cover;
+        text-align: center;
+        margin-top: 200px;
+    
+        z-index: 2;
+    }
+    
+    input {
+        border-radius: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        background-color: var(--grey);
+    }
+    
+    .btn__inscrire {
+        font-size: 20px;
+        font-family: var(--font-open);
+        color: white;
+    
+        background-color: var(--black);
+        outline: none;
+        border-radius: 70px;
+        padding: 10px;
+    }
+    
+    .fond__enveloppe {
+        position: absolute;
+        transform: scale(75%);
+        top: 260px;
+        left: 640px;
+    
+    
+        z-index: -1;
+    }
+    
+    form {
+        margin-left: -25px;
+    }
+    }
