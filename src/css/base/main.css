@@ -1,4 +1,40 @@
-@media (min-width: 1000px) {
+/* =============================== FORMAT TELEPHONE =============================== */
+@media (max-width: 800px) {
+
+    .main {
+        width: 100%;
+        background-color: var(--grey);
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .h1 {
+        font-size: var(--h1_phone);
+        text-align: center;
+        color: var(--black);
+        margin-right: 120px;
+    }
+    
+    .section_newsletter {
+        text-align: center;
+    }
+    
+    .newsletter {
+        font-size: var(--font-newsletter_phone);
+        font-family: var(--font-open);
+    }
+    
+    h3 {
+        font-size: var(--h3_phone);
+        font-family: var(--font-open);
+    }
+}
+
+/* =============================== FORMAT PC 16 Pouces =============================== */
+@media (min-width: 1000px) and (max-width: 1900px) {
 
     .main {
         width: 100%;
@@ -31,7 +67,8 @@ h3 {
 }
 }
 
-@media (max-width: 1000px) {
+/* =============================== FORMAT PC 13pouces =============================== */
+@media (min-width: 800px) and (max-width: 1000px) {
 
     .main {
         width: 100%;
@@ -40,27 +77,60 @@ h3 {
     
     a:link {
         text-decoration: none;
-        color: black;
     }
 
-    .h1 {
-        font-size: var(--h1_phone);
-        text-align: center;
-        color: var(--black);
-        margin-right: 120px;
+.h1 {
+    font-size: var(--h1_desktop);
+    text-align: center;
+    color: var(--black);
+    margin-right: 120px;
+}
+
+.section_newsletter {
+    text-align: center;
+}
+
+.newsletter {
+    font-size: var(--font-newsletter_desktop);
+    font-family: var(--font-open);
+}
+
+h3 {
+    font-size: var(--h3_desktop);
+    font-family: var(--font-open);
+}
+}
+
+/* =============================== FORMAT PC 24pouces =============================== */
+@media (min-width: 1900px) {
+
+    .main {
+        width: 100%;
+        background-color: var(--grey);
     }
     
-    .section_newsletter {
-        text-align: center;
+    a:link {
+        text-decoration: none;
     }
-    
-    .newsletter {
-        font-size: var(--font-newsletter_phone);
-        font-family: var(--font-open);
-    }
-    
-    h3 {
-        font-size: var(--h3_phone);
-        font-family: var(--font-open);
-    }
-    }
+
+.h1 {
+    font-size: var(--h1_desktop);
+    text-align: center;
+    color: var(--black);
+    margin-right: 120px;
+}
+
+.section_newsletter {
+    text-align: center;
+}
+
+.newsletter {
+    font-size: var(--font-newsletter_desktop);
+    font-family: var(--font-open);
+}
+
+h3 {
+    font-size: var(--h3_desktop);
+    font-family: var(--font-open);
+}
+}
